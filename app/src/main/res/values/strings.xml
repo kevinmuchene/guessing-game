@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Chemical Guessing Game</string>
+    <string name="enter_a_chemical_name_or_guess">Enter a chemical name or guess</string>
+    <string name="type_a_chemical_name">Type a chemical name</string>
+    <string name="add_chemical">Add chemical</string>
+    <string name="guess">Guess</string>
+    <string name="add_chemical_name">Add chemical name</string>
+    <string name="enter_a_chemical_name_or_a_guess">Enter a chemical name or a guess</string>
+    <string name="chemical_image">Chemical Image</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_a_chemical_name_or_a_guess" />
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/guess_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_a_chemical_name"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/guess_btn"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:text="@string/guess"/>
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/add_chemical_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_chemical_name"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/add_chemical_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add_chemical" />
+
+    <Space android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/chemical_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/chemical"
+        android:contentDescription="@string/chemical_image"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
